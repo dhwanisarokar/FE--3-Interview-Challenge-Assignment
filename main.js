@@ -35,11 +35,11 @@ class GitHub {
                         <h3 class="card-title fw-bold mb-3">${name}</h3>
                         <p class="card-text">${bio}</p>
                         <ul class="card-text d-flex flex-wrap justify-content-between git-list">
-                            <li class="text-light"><span class="fw-semibold">Followers: </span>${followers}</li>
-                            <li class="text-light"><span class="fw-semibold">Following: </span>${following}</li>
-                            <li class="text-light"><span class="fw-semibold">Repos: </span>${public_repos}</li>
-                            <li class="text-light"><span class="fw-semibold">Twitter: </span>${twitter_username}</li>
-                            <li class="text-light"><span class="fw-semibold">Location: </span>${location}</li>
+                            <li class="text-light"><span class="fw-semibold">Followers: </span> ${followers}</li>
+                            <li class="text-light"><span class="fw-semibold">Following: </span> ${following}</li>
+                            <li class="text-light"><span class="fw-semibold">Repos: </span> ${public_repos}</li>
+                            <li class="text-light"><span class="fw-semibold">Twitter: </span> ${twitter_username}</li>
+                            <li class="text-light"><span class="fw-semibold">Location: </span> ${location}</li>
                         </ul>
                     </div>
                 </div>

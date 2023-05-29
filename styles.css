@@ -24,7 +24,6 @@ body {
   padding: 15px;
   /* margin-top: 25%; */
   margin: 50px 0;
-  box-sizing: content-box;
 }
 
 #search:focus {
