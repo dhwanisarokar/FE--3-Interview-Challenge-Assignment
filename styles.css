@@ -1,0 +1,60 @@
+html,
+body {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #eee;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  margin: 10px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  background-color: #1a2b3d;
+}
+
+#search {
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  /* margin-top: 25%; */
+  margin: 50px 0;
+  box-sizing: content-box;
+}
+
+#search:focus {
+  outline: none;
+  border: solid #f1af51 3px;
+}
+
+.git-list {
+  padding: 0;
+  margin-right: 60px;
+}
+
+.git-list li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.avatar-container {
+  padding: 25px;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: solid 4px #d5d5d5;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
